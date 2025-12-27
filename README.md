@@ -1,4 +1,4 @@
-Overview
+Overview:
 This repository implements a simple home‑price estimator for Bangalore (Bengaluru) real‑estate.
 A linear regression model trained on historic listings predicts the price (in Lakhs ₹) from four inputs:
 
@@ -28,7 +28,7 @@ All code is written in pure Python, JavaScript, HTML & CSS – no heavy front‑
 
 
 
-Features
+Features:
 Linear‑Regression model trained on a curated Bangalore dataset.
 RESTful Flask API with CORS headers for easy cross‑origin use.
 Dynamic UI – location dropdown populated from the server, micro‑animations for button clicks and result display.
@@ -36,7 +36,7 @@ Modular utilities (server/util.py) that load artifacts once at startup and cache
 Zero‑dependency front‑end – only jQuery (CDN) is used for concise AJAX handling.
 
 
-Running the Application
+Running the Application:
 
 1. Start the Flask server
    python server/server.py
@@ -54,7 +54,7 @@ The estimated price (in Lakhs ₹) appears with a subtle fade‑in effect.
 
 
 
-Model Details
+Model Details:
 Algorithm – Scikit‑learn LinearRegression.
 Features –
   total_sqft (continuous)
